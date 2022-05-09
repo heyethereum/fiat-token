@@ -1,0 +1,749 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\AbstractFiatTokenV1.sol": {
+      "lastModificationDate": 1652081803245,
+      "contentHash": "3bb228142d48f1f818fbc5e2fdd86736",
+      "sourceName": "contracts/fiatToken/AbstractFiatTokenV1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractFiatTokenV1"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\IERC20.sol": {
+      "lastModificationDate": 1652081838679,
+      "contentHash": "4afef28fff8352a9f9adf892416fb90d",
+      "sourceName": "contracts/fiatToken/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\FiatTokenV1.sol": {
+      "lastModificationDate": 1652081453691,
+      "contentHash": "ca4402f620f874e960346c67c39c6362",
+      "sourceName": "contracts/fiatToken/FiatTokenV1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol",
+        "./AbstractFiatTokenV1.sol",
+        "./Ownable.sol",
+        "./Pausable.sol",
+        "./Blacklistable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV1"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\SafeMath.sol": {
+      "lastModificationDate": 1652081510194,
+      "contentHash": "a921121600410c5dcb0995b46e950a6a",
+      "sourceName": "contracts/fiatToken/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\Ownable.sol": {
+      "lastModificationDate": 1652081673793,
+      "contentHash": "94fb3c26d1446a98e801e26abde68488",
+      "sourceName": "contracts/fiatToken/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\Pausable.sol": {
+      "lastModificationDate": 1652081642474,
+      "contentHash": "f3f396314d1f4190f083c0461b8b7b1a",
+      "sourceName": "contracts/fiatToken/Pausable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\Blacklistable.sol": {
+      "lastModificationDate": 1652081721337,
+      "contentHash": "10528548dc6b7e6cf6f33aa65f0811ed",
+      "sourceName": "contracts/fiatToken/Blacklistable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Blacklistable"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\Rescuable.sol": {
+      "lastModificationDate": 1652081547151,
+      "contentHash": "d9a8e7381d63fca25f22f837cdac72ac",
+      "sourceName": "contracts/fiatToken/Rescuable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./IERC20.sol",
+        "./SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Rescuable"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\SafeERC20.sol": {
+      "lastModificationDate": 1652081575240,
+      "contentHash": "a5ddef28e686fccb12c263cc9c9d0eeb",
+      "sourceName": "contracts/fiatToken/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./SafeMath.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\Address.sol": {
+      "lastModificationDate": 1652081741497,
+      "contentHash": "242720e94e9d5c3c416dc0dc739d79e8",
+      "sourceName": "contracts/fiatToken/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\FiatTokenV1_1.sol": {
+      "lastModificationDate": 1652081366650,
+      "contentHash": "2c2d3d85f05f7eb2b4568cf16b69f016",
+      "sourceName": "contracts/fiatToken/FiatTokenV1_1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FiatTokenV1.sol",
+        "./Rescuable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV1_1"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\FiatTokenV2.sol": {
+      "lastModificationDate": 1652081420671,
+      "contentHash": "4ef4ea88ef43ce32c00a11988e864974",
+      "sourceName": "contracts/fiatToken/FiatTokenV2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FiatTokenV1_1.sol",
+        "./AbstractFiatTokenV2.sol",
+        "./EIP712.sol",
+        "./EIP712Domain.sol",
+        "./EIP3009.sol",
+        "./EIP2612.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\AbstractFiatTokenV2.sol": {
+      "lastModificationDate": 1652081779495,
+      "contentHash": "4ff7022f728d0a4877dc8188cb0b89bc",
+      "sourceName": "contracts/fiatToken/AbstractFiatTokenV2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractFiatTokenV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractFiatTokenV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\EIP712.sol": {
+      "lastModificationDate": 1652081974775,
+      "contentHash": "809c8015ddfa458f22bad6911c3d4317",
+      "sourceName": "contracts/fiatToken/EIP712.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECRecover.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\EIP712Domain.sol": {
+      "lastModificationDate": 1652082068594,
+      "contentHash": "f91ccd75e21aa02dc474a12144ebe0c7",
+      "sourceName": "contracts/fiatToken/EIP712Domain.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP712Domain"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\EIP3009.sol": {
+      "lastModificationDate": 1652082099112,
+      "contentHash": "bc75de790cdfafed365ffab34a6f2c4c",
+      "sourceName": "contracts/fiatToken/EIP3009.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractFiatTokenV2.sol",
+        "./EIP712Domain.sol",
+        "./EIP712.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP3009"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\EIP2612.sol": {
+      "lastModificationDate": 1652082121599,
+      "contentHash": "65baf9a9c20a9fa725f6d4ab3212d1d7",
+      "sourceName": "contracts/fiatToken/EIP2612.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractFiatTokenV2.sol",
+        "./EIP712Domain.sol",
+        "./EIP712.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP2612"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\ECRecover.sol": {
+      "lastModificationDate": 1652082023450,
+      "contentHash": "0eaf45a1853dcbf359c4b963490e334f",
+      "sourceName": "contracts/fiatToken/ECRecover.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ECRecover"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\FiatTokenV2_1.sol": {
+      "lastModificationDate": 1652081227153,
+      "contentHash": "960daea3c3e527379e231dfff8c9e439",
+      "sourceName": "contracts/fiatToken/FiatTokenV2_1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FiatTokenV2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV2_1"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\fiat_token\\contracts\\fiatToken\\FiatTokenUtil.sol": {
+      "lastModificationDate": 1652082160931,
+      "contentHash": "02071365c60ac1c58e1df9e97080c69e",
+      "sourceName": "contracts/fiatToken/FiatTokenUtil.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenUtil"
+      ]
+    }
+  }
+}
